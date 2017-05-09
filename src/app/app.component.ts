@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
+/**
+ * The root component of the project, contains the root outlet.
+ * Any other component (including header and footer) should be loaded via the router.
+ */
 @Component({
   selector: 'ngg-root',
   template: `
-  <h1>
-    {{title}}
-  </h1>
   <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'ngg works!';
 }
