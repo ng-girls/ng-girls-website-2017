@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {AboutComponent} from "../about/about.component";
 
 /**
  * The homepage of ngGirls.
@@ -8,15 +9,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'ngg-home',
   template: `
-    <p>
-      home Works!
-    </p>
+        <ngg-about></ngg-about>
   `,
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+  }
+
 
   ngOnInit() {
   }
