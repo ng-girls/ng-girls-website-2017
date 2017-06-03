@@ -1,11 +1,12 @@
 <div   class="nav-container"> 
 <div class="logo-container" > <img id="logo" [src]="fullImagePath + '/logos.svg'" alt="ng girls Logo" /> </div>
   
-  <div  class="menu-container"  > <div ><a [routerLink] = "['/home']" >HOME</a></div> 
- <div ><a [routerLink] = "['/about']" >ABOUT</a></div>
-  <div ><a [routerLink] = "['/baApart']" >BE A PART </a></div>
-  <div ><a [routerLink] = "['/team']" >TEAM</a></div>
-  <div ><a [routerLink] = "['/faq']" >FAQ</a></div> </div>
+  <div  class="menu-container"  > <div ><a [routerLink] = "['/home']" >{{'home' | uppercase}}</a></div> 
+ <div ><a [routerLink] = "['/about']" >{{'about' | uppercase}}</a></div>
+  <div ><a [routerLink] = "['/baApart']" >{{'be a part' | uppercase}}  </a></div>
+  <div ><a [routerLink] = "['/team']" >{{'team' | uppercase}}</a></div>
+   <div ><a [routerLink] = "['/partners']" >{{'partners' | uppercase}}</a></div>
+  <div ><a [routerLink] = "['/faq']" >{{'faq' | uppercase}}</a></div> </div>
  
 
 </div>

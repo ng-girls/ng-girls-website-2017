@@ -6,6 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { FaqComponent } from './faq/faq.component';
 import {BeAPartComponent} from './be-apart/be-apart.component';
 import {OrganizeTeamComponent} from './organize-team/organize-team.component'; 
+import {PartnersComponent} from './partners/partners.component'; 
 
 
 const routes: Routes = [
@@ -25,6 +26,10 @@ const routes: Routes = [
   },
     {
     path: 'team', component: OrganizeTeamComponent
+
+  },
+     {
+    path: 'partners', component: PartnersComponent
 
   },
   {
