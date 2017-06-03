@@ -9,8 +9,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'ngg-home',
   template: `
     <p>
-      home Works!
+     Home works 
     </p>
+    
   `,
   styleUrls: ['./home.component.scss']
 })

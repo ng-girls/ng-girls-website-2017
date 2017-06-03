@@ -1,0 +1,41 @@
+.nav-container
+{
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+     height: 95px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.logo-container
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+}
+img
+{
+  height: 46px;
+}
+.menu-container
+{
+    flex: 5;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row; 
+    div {
+        margin-right: 50px; 
+
+    }
+
+}
+
