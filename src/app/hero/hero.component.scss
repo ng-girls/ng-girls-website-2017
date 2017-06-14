@@ -1,0 +1,130 @@
+.flex-container {
+    /*border: 5px solid red;*/
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    flex-direction: column; /* to center verticaly nicely the elements inside the hero*/
+}
+.hero-img {
+    /*border: 2px solid green;*/
+    /* The image used */
+    background-image: url('/assets/img/eclipse.png');
+    /* Position and center the image to scale nicely on all screens */
+    height: 100vh; /* must have! otherwise the length of the 'div' is 0 and image not seen*/
+    background-repeat: no-repeat; /* if the image is smaller then ViewPort, it repeats*/
+    background-size: 100% 100%; /* stretch the image nicely along the Axis to match vieport*/
+}
+
+.logo {
+    margin: 20px auto 0;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+ }
+
+ .logo-big {
+     background-image: url('/assets/img/logo_big.png');
+     width: 450px;
+     height: 340px;
+ }
+
+ .logo-name {
+     background-image: url('/assets/img/logoname.png');
+     width: 330px;
+     height: 155px;
+ }
+
+.hero-text {
+    // border: 2px solid green;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    line-height: 26px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px rgba(28,27,31,0.81)   
+}
+
+.hero-btn {
+    // border: 2px solid green;
+    display: flex;
+    justify-content: center;    
+}
+
+.btn-primary {
+    color: #fff !important;
+    user-select: none;
+    text-transform: uppercase;
+    border: 0;
+    background: #4285f4 !important
+}
+  
+.waves-button {
+    white-space: nowrap;
+    padding: 0.9em 1.15em;
+    border-radius: 0.2em;
+    border: none;
+    outline: none;
+    font-size: 1.05em;
+    line-height: 1em;
+}
+
+.btn {
+    margin: 0 6px 10px;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+}
+
+/* Animate the little arrow to go to the 'About' section*/
+.explore {
+    margin-left: -16px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    animation: callToAction 3.5s linear 0s infinite
+    
+}
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    transition: all .5s;
+}
+.icon-arrow-down {
+    width: 32px;
+    height: 32px;
+    fill: #e6e6e6
+}
+
+@keyframes callToAction {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px)
+    }
+
+    25% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    75% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    85% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-16px);
+        transform: translateY(-16px)
+    }
+}
+/* End of arrow animate*/

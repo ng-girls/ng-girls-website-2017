@@ -11,6 +11,7 @@ import { Component, OnInit } from '@angular/core';
     <p>
       home Works!
     </p>
+    <ngg-hero></ngg-hero>
   `,
   styleUrls: ['./home.component.scss']
 })
