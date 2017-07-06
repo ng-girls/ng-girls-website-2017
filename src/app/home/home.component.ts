@@ -6,19 +6,19 @@
  * and links to the different events
  */
 @Component({
-  selector: 'ngg-home',
-  template: `
+    selector: 'ngg-home',
+    template: `
     <p>
       <ngg-partners></ngg-partners>
     </p>
   `,
-  styleUrls: ['./home.component.scss']
+    styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+    constructor() { }
 
-  ngOnInit() {
-  }
+    ngOnInit() {
+    }
 
 }

@@ -1,0 +1,39 @@
+{
+  "partners": [
+    {
+      "group": "With support of",
+      "elements": [
+        {
+          "name": "Angular Nights",
+          "description": "Angular Nights meetup group - learn Angular by coding",
+          "link": "http://www.meetup.com/Angular-Nights/",
+          "imageUrl": "ngNights.png"
+        },
+        {
+          "name": "JS-Poland",
+          "description": "JS-Poland 2017",
+          "link": "http://www.js-poland.pl/",
+          "imageUrl": "JS-Poland.png"
+        },
+        {
+          "name": "ng-conf",
+          "description": "ng-conf - The world's original Angular conference",
+          "link": "https://www.ng-conf.org/",
+          "imageUrl": "ng-conf.png"
+        }
+      ]
+    },
+    {
+      "group": "ngGirls is inspired by Django Girls and makes use of its resources",
+      "elements": [
+        {
+          "name": "Django Girls",
+          "description": "Django Girls",
+          "link": "https://djangogirls.org/",
+          "imageUrl": "djangogirls.png"
+        }
+      ]
+    }
+  ]
+
+}
