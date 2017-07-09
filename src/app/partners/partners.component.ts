@@ -2,7 +2,7 @@
 import { Observable } from 'rxjs/Observable';
 
 import { PartnersService } from 'app/services/partners.service';
-import { Group } from './../models/element';
+import { Group } from './../models/group';
 import { environment } from 'environments/environment';
 
 @Component({

@@ -1,5 +1,5 @@
 ﻿import { Injectable } from '@angular/core';
-import { Group } from 'app/models/element';
+import { Group } from 'app/models/group';
 import { Http } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/map';
