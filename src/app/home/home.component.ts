@@ -1,5 +1,4 @@
-import {Component, OnInit} from '@angular/core';
-import {AboutComponent} from "../about/about.component";
+import { Component, OnInit } from '@angular/core';
 
 /**
  * The homepage of ngGirls.
@@ -9,7 +8,7 @@ import {AboutComponent} from "../about/about.component";
 @Component({
   selector: 'ngg-home',
   template: `
-        <ngg-about></ngg-about>
+    <ngg-about></ngg-about>
   `,
   styleUrls: ['./home.component.scss']
 })
