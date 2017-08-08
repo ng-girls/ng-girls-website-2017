@@ -5,9 +5,9 @@ import { Component, OnInit } from '@angular/core';
   selector: 'ngg-hero',
   template: `
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <p>
-      hero Works!
-    </p>
+    <!--- <p> --->
+    <!---   hero Works! --->
+    <!--- </p> --->
     
       <div class="flex-container">
         <div class="hero-img">

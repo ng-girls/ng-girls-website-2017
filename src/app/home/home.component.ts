@@ -8,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'ngg-home',
   template: `
-    <p>
-      home Works!
-    </p>
+    <!-- <p> -->
+    <!--   home Works! -->
+    <!-- </p> -->
     <ngg-hero></ngg-hero>
+    <ngg-bepart></ngg-bepart>
   `,
   styleUrls: ['./home.component.scss']
 })
