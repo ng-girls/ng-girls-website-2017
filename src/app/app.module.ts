@@ -6,12 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
+import { HeroComponent } from './hero/hero.component';
+import { BepartComponent } from './bepart/bepart.component';
 import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
+    HeroComponent,
+    BepartComponent,
     AboutComponent
   ],
   imports: [

@@ -1,0 +1,91 @@
+.row {
+    width: auto;
+   
+}
+
+.flex-container {
+    font-family: "Roboto",sans-serif;  
+   height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    /* The hero image */
+    .hero-image {
+        /* The image used */
+        background-image: url('/assets/img/eclipse.png');
+        /* Set a specific height */
+        height: 100vh;
+        width: 100vw;
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+
+        #logo-big {
+                display: flex;
+                justify-content: center;
+                margin: 20px auto 0;
+                background-size: 100% auto;
+                width: 450px;
+                height: 340px;
+            }
+        #logo-name {
+            @extend #logo-big;  
+            width: 330px;
+            height: 155px;
+        }
+        /* Place text in the middle of the image */
+        .hero-text {
+            text-align: center;
+            color: white;
+            font-size: 32px;
+            line-height: 32px;
+            font-weight: 400;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px rgba(28,27,31,0.81)
+        }
+
+        p {
+            margin: 0;
+        }
+        .btn-primary {
+            color: #fff !important;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            text-transform: uppercase;
+            border: 0;
+            background: #4285f4 !important
+        }
+        .btn {
+             margin: 0 3px 10px;
+             font-weight: 500;
+        }
+        .waves-button {
+            white-space: nowrap;
+            padding: 0.85em 1.1em;
+            border-radius: 0.2em;
+            border: none;
+            outline: none;
+            font-size: 1em;
+            line-height: 1em;
+            display: flex;
+            justify-content: center;
+            width: 200px;
+        }
+    }    
+}
+.flex-item {
+    padding: 5px;
+
+    margin: 10px;
+    line-height: 20px;
+     font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
